@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
     <title>HoverPinchzoom.js Demo</title>
 
@@ -7,9 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
-    <script type="text/javascript" src="https://github.com/Emperorx3m/Hover_pinch_zoom/blob/master/hover-pinch-zoom.js"></script>
-    <!-- <script type="text/javascript" src="../hover-pinch-zoom.js"></script> -->
+    <!-- <script type="text/javascript" -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mouse_hover_pinch_zoom@1.0.1/hover-pinch-zoom.js"></script>
 </head>
+
 <body>
 
     <div class="page hover-pinch-zoom-parent">
@@ -20,18 +22,22 @@
                     Mouse hover and finger pinch zoom
                 </p>
             </div>
-</div>
-            <div class="hover-pinch-zoom-img" style="width:30vw; height: 70vh;">
-                <img class="mob" src="mannq.png"/>
-            </div>
-            
-        
+        </div>
+        <div class="hover-pinch-zoom-img" style="width:30vw; height: 70vh;">
+            <img class="mob" src="mannq.png" />
+        </div>
+
+
     </div>
 
     <script type="text/javascript">
-      var el = document.querySelector('div.hover-pinch-zoom-img');
-    init_zoom(el);
+        document.addEventListener("DOMContentLoaded", function (event) {
+            var el = document.querySelector('div.hover-pinch-zoom-img');
+            init_zoom(el);
+        });
+
     </script>
 
 </body>
+
 </html>

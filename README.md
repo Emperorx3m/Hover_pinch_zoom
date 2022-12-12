@@ -5,6 +5,7 @@ HoverPinchZoom is a Javascript library providing touch gestures for zooming and 
 ## Installation
 
 - Use the [NPM package](https://www.npmjs.com/package/mouse_hover_pinch_zoom).
+- Link directly to JsDelivr https://cdn.jsdelivr.net/npm/mouse_hover_pinch_zoom@1.0.1/hover-pinch-zoom.js
 - Download and add to your project and Link directly.
 
 
@@ -42,4 +43,4 @@ Licensed under the [MIT License](http://opensource.org/licenses/MIT).
 
 ## Github Page with demo
 
-https://#
+https://emperorx3m.github.io/Hover_pinch_zoom/

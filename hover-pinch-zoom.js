@@ -65,7 +65,7 @@ var init_zoom = (el) => {
             el.style.backgroundSize = 'contain';
             // el.style.width = "100%";
             // el.style.height = "100%";
-            addZoom();
+            addZoom(el);
             return false;
         } else {
             d = el.getElementsByTagName('img')
@@ -78,7 +78,7 @@ var init_zoom = (el) => {
 
 
   // var defineHoverPinchZoom = function () {
-       var addZoom = (target = el) => {
+       var addZoom = (el) => {
             el.addEventListener("mouseover", () => {
                 //mouse func
         
