@@ -1,6 +1,6 @@
 {
   "name": "mouse_hover_pinch_zoom",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "a Javascript library providing touch gestures for zooming and dragging on image elements on mobile And mouse gestures for deep zooming on devices that use mouse.",
   "main": "hover-pinch.zoom.js",
   "scripts": {
