@@ -1,0 +1,32 @@
+{
+  "name": "hover_pinch_zoom",
+  "version": "1.0.3",
+  "description": "a Javascript library providing touch gestures for zooming and dragging on image elements on mobile And mouse gestures for deep zooming on devices that use mouse.",
+  "main": "hover-pinch.zoom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emperorx3m/Hover_pinch_zoom.git"
+  },
+  "keywords": [
+    "Hover",
+    "pinch",
+    "zoom",
+    "image",
+    "zoom",
+    "mouse",
+    "hover",
+    "mouse",
+    "zoom",
+    "oinch",
+    "zoom"
+  ],
+  "author": "EmperorX3m",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Emperorx3m/Hover_pinch_zoom/issues"
+  },
+  "homepage": "https://github.com/Emperorx3m/Hover_pinch_zoom#readme"
+}
